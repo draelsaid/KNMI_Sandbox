@@ -1,0 +1,20 @@
+#!/bin/bash
+set -x 
+
+for MM in 1 2 3 4 5 6 7 8 9 10 11 12
+do
+ mm_p1="$(((MM+1) % 12 ))"
+ mm_m1="$(((MM-1) % 12 ))"
+ printf -v mm_p1 "%02d" $mm_p1
+ printf -v mm_m1 "%02d" $mm_m1
+
+ echo $mm_p1
+ echo $mm_m1
+done
+
+$ompthreads=1;
+$ompth_fc = 1;
+$ompth_1nod = 1;
+# use hyper-threading iff omp_threads > 1
+$tpn_fc = ( $ompth_fc == 1 ? 128 : int(256/$ompth_fc) );
+

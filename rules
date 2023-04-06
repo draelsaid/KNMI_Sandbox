@@ -1,0 +1,140 @@
+set edition = 2;
+
+if (shortName is "t" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=130 ;
+append; }
+if (discipline == 0 && parameterCategory == 0 && parameterNumber == 0 && typeOfLevel is "heightAboveGround" && level == 2) { 
+ set parameterNumber= 130 ;
+append; }
+if (discipline == 0 && parameterCategory == 0 && parameterNumber == 0 && typeOfLevel is "heightAboveGround" && level == 0) { 
+ set parameterNumber= 130 ;
+append; }
+if (discipline == 2 && parameterCategory == 0 && parameterNumber == 28 && typeOfLevel is "heightAboveGround" && level == 0) { 
+ set parameterNumber= 260373 ;
+append; }
+if (discipline == 0 && parameterCategory == 0 && parameterNumber == 0 && typeOfLevel is "meanSea" && level == 0) { 
+ set parameterNumber= 34 ;
+append; }
+if (discipline == 0 && parameterCategory == 3 && parameterNumber == 0 && typeOfLevel is "heightAboveGround" && level == 0) { 
+ set parameterNumber= 134 ;
+append; }
+if (shortName is "u" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=131 ;
+ append; }
+if (shortName is "v" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=132 ;
+ append; }
+if (shortName is "q" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=133 ;
+append; }
+if (discipline == 0 && parameterCategory == 1 && parameterNumber == 0 && typeOfLevel is "heightAboveGround" && level == 2 ) { 
+ set parameterNumber=133 ;
+append; }
+if (shortName is "cwat_cond" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=164 ;
+ append; }
+if (shortName is "clw" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=130212 ;
+append; }
+if (shortName is "ciwc_cond" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=247 ;
+append; }
+if (shortName is "crwc" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=75 ;
+append; }
+if (shortName is "rain_cond" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=500102 ;
+append; }
+if (shortName is "snow_cond" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=500103 ;
+append; }
+if (shortName is "grpl_cond" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=500106 ;
+append; }
+if (shortName is "tke" && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=260500 ;
+append; }
+if (discipline == 2 && parameterCategory == 3 && parameterNumber == 18 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=228139 ;
+append; }
+if (discipline == 0 && parameterCategory == 1 && parameterNumber == 60 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=228141 ;
+append; }
+if (discipline == 0 && parameterCategory == 1 && parameterNumber == 53 && typeOfLevel is "heightAboveGround" && timeRangeIndicator == 4) { 
+ set parameterNumber=144 ;
+ set scaleValuesBy=1000.0 ;
+append; }
+if (discipline == 0 && parameterCategory == 1 && parameterNumber == 75 && typeOfLevel is "heightAboveGround" && timeRangeIndicator == 4) { 
+ set parameterNumber=500146 ;
+ set scaleValuesBy=1000.0 ;
+append; }
+if (discipline == 0 && parameterCategory == 1 && parameterNumber == 65 && typeOfLevel is "heightAboveGround" && timeRangeIndicator == 4) { 
+ set parameterNumber=260058 ;
+ set scaleValuesBy=1000.0 ;
+append; }
+if (discipline == 2 && parameterCategory == 3 && parameterNumber == 20 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=3086 ;
+append; }
+if (discipline == 0 && parameterCategory == 4 && parameterNumber == 9 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=3111 ;
+append; } 
+if (discipline == 0 && parameterCategory == 3 && parameterNumber == 1 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=151 ;
+append; }
+if (discipline == 0 && parameterCategory == 19 && parameterNumber == 3 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=159 ;
+append; } 
+if (discipline == 2 && parameterCategory == 3 && parameterNumber == 194 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber= 500169 ;
+append; }
+if (discipline == 0 && parameterCategory == 1 && parameterNumber == 6 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber= 260259 ;
+append; }
+if (discipline == 10 && parameterCategory == 2 && parameterNumber == 0 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber= 3091 ;
+append; }
+if (discipline == 0 && parameterCategory == 1 && parameterNumber == 12 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber= 260010 ;
+append; }
+if (discipline == 0 && parameterCategory == 0 && parameterNumber == 11 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber= 3122 ;
+append; }
+if (discipline == 0 && parameterCategory == 0 && parameterNumber == 10 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber= 3121 ;
+append; }
+if (discipline == 0 && parameterCategory == 19 && parameterNumber == 192 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber= 174 ;
+append; }
+if (discipline == 2 && parameterCategory == 0 && parameterNumber == 196 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber= 173 ;
+append; }
+if (discipline == 10 && parameterCategory == 4 && parameterNumber == 3 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber= 3088 ;
+append; }
+if (discipline == 0 && parameterCategory == 1 && parameterNumber == 0 && typeOfLevel is "heightAboveGround" && level == 0) { 
+ set parameterNumber= 174096 ;
+append; }
+if (discipline == 10 && parameterCategory == 2 && parameterNumber == 0 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber= 3091 ;
+append; }
+if (shortName is "swl" && typeOfLevel is "hybrid" ) { 
+append; }
+if (shortName is "rain" && typeOfLevel is "hybrid" ) { 
+append; }
+if (shortName is "sdwe" && typeOfLevel is "hybrid" ) { 
+append; }
+if (shortName is "nswrs" && typeOfLevel is "hybrid" ) { append; }
+if (shortName is "tcc" && typeOfLevel is "hybrid" ) { append; }
+if (shortName is "al" && typeOfLevel is "hybrid" ) { append; }
+if (shortName is "prsnow" && typeOfLevel is "hybrid" ) { append; }
+if (shortName is "icec" && typeOfLevel is "hybrid" ) { append; }
+if (shortName is "w_i" && typeOfLevel is "hybrid" ) { append; }
+if (discipline == 0 && parameterCategory == 6 && parameterNumber == 192 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=32 ;
+ append;}
+if (discipline == 0 && parameterCategory == 6 && parameterNumber == 192 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber=164 ;
+ append;}
+if (discipline == 0 && parameterCategory == 2 && parameterNumber == 2 && typeOfLevel is "hybrid" ) { 
+ set parameterNumber= ;
+ append;}

@@ -1,0 +1,9 @@
+## -*- cperl -*-
+
+$ompthreads=1;
+$ompth_fc = 1;
+$ompth_1nod = 1;
+# use hyper-threading iff omp_threads > 1
+$tpn_fc = ( $ompth_fc == 1 ? 128 : int(256/$ompth_fc) );
+
+print "tpn_fc: $tpn_fc";

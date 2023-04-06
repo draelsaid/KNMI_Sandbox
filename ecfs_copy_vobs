@@ -1,0 +1,13 @@
+
+
+ecp hm_home/BL18_n1_1300m_red/archive/extract/vobs* ec:harmonie/BL18_n1_1300m_red/vobs/
+ecp hm_home/BL19_n1_1300m_red/archive/extract/vobs* ec:harmonie/BL19_n1_1300m_red/vobs/
+ecp hm_home/BL2_n1_1300m_red/archive/extract/vobs* ec:harmonie/BL2_n1_1300m_red/vobs/
+
+ecp hm_home/BL18_n0_2500m_red/archive/extract/vobs* ec:harmonie/BL18_n0_2500m_red/vobs/
+ecp hm_home/BL19_n0_2500m_red/archive/extract/vobs* ec:harmonie/BL19_n0_2500m_red/vobs/
+ecp hm_home/BL2_n0_2500m_red/archive/extract/vobs* ec:harmonie/BL2_n0_2500m_red/vobs/
+
+ecp hm_home/NL25_Eunice_n0/archive/extract/vobs* ec:harmonie/NL25_Eunice_n0/vobs/
+ecp hm_home/NL13_Eunice_n1/archive/extract/vobs* ec:harmonie/NL13_Eunice_n1/vobs/
+ecp hm_home/NL750_Eunice_n2/archive/extract/vobs* ec:harmonie/NL750_Eunice_n2/vobs/
